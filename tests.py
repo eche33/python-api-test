@@ -16,5 +16,8 @@ class TestStringMethods(unittest.TestCase):
         with self.assertRaises(TypeError):
             s.split(2)
 
+    def dummy_test(self):
+        self.assertTrue('HOLA'.isupper())
+
 if __name__ == '__main__':
     unittest.main()
