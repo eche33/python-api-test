@@ -43,7 +43,7 @@ def post_something():
 # A welcome message to test our server
 @app.route('/')
 def index():
-    return "<h1>Tanto tiempo te estuve esperando, pedazo de hijo de mil puta !</h1>"
+    return "<h1>Welcome to application server !</h1>"
 
 if __name__ == '__main__':
     # Threaded option to enable multiple instances for multiple user access support
